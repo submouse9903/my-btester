@@ -6,7 +6,7 @@ from math import nan, isnan
 import pandas as pd
 
 # short포지션 구축 가능한지 알아보기
-# mac git test
+# mac git test, windows test
 @dataclass
 class Position:
     """
