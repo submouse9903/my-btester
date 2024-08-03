@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="898d2cc7-9f64-4dae-80ce-1c34fc92337d" name="Changes" comment="test1">
+    <list default="true" id="898d2cc7-9f64-4dae-80ce-1c34fc92337d" name="Changes" comment="winTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myBtester/myBtester.py" beforeDir="false" afterPath="$PROJECT_DIR$/myBtester/myBtester.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBtester/ipynb_checkpoints/mtBtester-test-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/myBtester/ipynb_checkpoints/mtBtester-test-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBtester/mtBtester-test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/myBtester/mtBtester-test.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,17 @@
       <list>
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -46,6 +58,7 @@
   "keyToString": {
     "Python.test4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ShowUsagesActions.previewPropertyKey": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/pdjpc1/PycharmProjects/my-btester",
@@ -54,7 +67,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "preferences.editor",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -76,8 +89,9 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="py39trading" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -113,6 +127,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.test4" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.test4" />
@@ -136,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1722674580022</updated>
       <workItem from="1722674581709" duration="3946000" />
-      <workItem from="1722687011226" duration="115000" />
+      <workItem from="1722687011226" duration="3061000" />
     </task>
     <task id="LOCAL-00001" summary="새로만들어봄 되나">
       <option name="closed" value="true" />
@@ -162,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722686687496</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="winTest">
+      <option name="closed" value="true" />
+      <created>1722687155981</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722687155981</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +209,8 @@
     <MESSAGE value="새로만들어봄 되나" />
     <MESSAGE value="이름변경" />
     <MESSAGE value="test1" />
-    <option name="LAST_COMMIT_MESSAGE" value="test1" />
+    <MESSAGE value="winTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="winTest" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/my_btester$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1722674632306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
