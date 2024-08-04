@@ -35,8 +35,9 @@ class Position:
     profit_loss: float = nan
     change_pct: float = nan
     current_value: float = nan
-    long: bool = nan #포지션 객체에 롱숏 구분할 수 있게 만든다.
 
+
+    long: bool = None #포지션 객체에 롱숏 구분할 수 있게 만든다.
     # 주식 분할이나 액면 병합 문제 => adjuested price로 해결 가능
     takeProfit: float = nan
     stopLoss: float = nan
@@ -76,7 +77,8 @@ class Trade:
     trade_commission: float = nan
     cumulative_return: float = nan
 
-    long: bool = nan
+    long: bool = None #오픈한 포지션 방향
+    trade_condition: str = nan # open, close, stoploss, takeprofit
 
 @dataclass
 class Result:
@@ -92,6 +94,7 @@ class Result:
     trades: List[Trade]
     open_positions: List[Position]
 
+    # all_trade_history: List[Position]# position에는 진입청산 모두 동일하게 들어간다. 나는 진입청산 모두 개별적으로 기록하는 자료임
 class Strategy(ABC):
     """
     트레이딩 전략을 구현하기 위한 추상 기본 클래스입니다.
@@ -191,7 +194,7 @@ class Strategy(ABC):
         self.cumulative_return = self.cash
         self.assets_value = .0
 
-    def open(self, price: float, size: Optional[float] = None, symbol: Optional[str] = None, takeProfit: Optional[float] = None, stopLoss: Optional[float] = None):
+    def open(self, price: float, size: Optional[float]=None, symbol: Optional[str]=None, takeProfit: Optional[float]=None, stopLoss: Optional[float]=None, long: Optional[bool]=None, trade_condition: Optional[str]=None):
         """
         지정된 매개변수에 따라 새로운 금융 포지션을 개설합니다.
 
@@ -219,7 +222,7 @@ class Strategy(ABC):
             return False
 
 
-        position = Position(symbol=symbol, open_date=self.date, open_price=price, position_size=size, takeProfit=takeProfit, stopLoss=stopLoss)
+        position = Position(symbol=symbol, open_date=self.date, open_price=price, position_size=size, takeProfit=takeProfit, stopLoss=stopLoss, long=long)
         position.update(last_date=self.date, last_price=price)
 
         self.assets_value += position.current_value
@@ -259,7 +262,7 @@ class Strategy(ABC):
 
             trade = Trade(position.symbol, position.open_date, position.last_date, position.open_price,
                 position.last_price, position.position_size, position.profit_loss, position.change_pct,
-                trade_commission, self.cumulative_return)
+                trade_commission, self.cumulative_return, position.long)
 
             self.trades.extend([trade])
             self.open_positions.remove(position)

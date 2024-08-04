@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="898d2cc7-9f64-4dae-80ce-1c34fc92337d" name="Changes" comment="winTest">
+      <change afterPath="$PROJECT_DIR$/.idea/jupyter-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backtrader-multi-thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/charting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/my-btester.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my-btester.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myBtester/ipynb_checkpoints/mtBtester-test-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/myBtester/ipynb_checkpoints/mtBtester-test-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtrader-multiple-stocks.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/backtrader-multiple-stocks.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBtester/mtBtester-test-pyta.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/myBtester/mtBtester-test-pyta.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myBtester/mtBtester-test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/myBtester/mtBtester-test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBtester/myBtester.py" beforeDir="false" afterPath="$PROJECT_DIR$/myBtester/myBtester.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +48,12 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/submouse9903/my-btester.git&quot;,
-    &quot;accountId&quot;: &quot;1dd3834c-2e6d-4df8-a856-851e8fde8c30&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/submouse9903/my-btester.git",
+    "accountId": "ff207afa-2fee-4393-9a53-b16119fe83f5"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -56,8 +65,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.backtrader-multi-thread.executor": "Run",
+    "Python.charting.executor": "Run",
+    "Python.koreaStockTest.executor": "Run",
     "Python.test4.executor": "Run",
+    "Python.tv-chart-test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ShowUsagesActions.previewPropertyKey": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -67,7 +81,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
+    "python.debugger.dataview.coloredbydefault": "false",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -79,7 +94,50 @@
       <recent name="C:\Users\pdjpc1\PycharmProjects\my-btester\original-files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.tv-chart-test">
+    <configuration name="backtrader-multi-thread" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my-btester" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backtrader-multi-thread.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="charting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my-btester" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/charting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="btester-master" />
       <option name="ENV_FILES" value="" />
@@ -127,12 +185,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tv-chart-test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my-btester" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="pytv38" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tv-chart-test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.backtrader-multi-thread" />
+      <item itemvalue="Python.charting" />
+      <item itemvalue="Python.tv-chart-test" />
       <item itemvalue="Python.test4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tv-chart-test" />
+        <item itemvalue="Python.backtrader-multi-thread" />
+        <item itemvalue="Python.charting" />
         <item itemvalue="Python.test4" />
       </list>
     </recent_temporary>
@@ -155,6 +240,11 @@
       <updated>1722674580022</updated>
       <workItem from="1722674581709" duration="3946000" />
       <workItem from="1722687011226" duration="3061000" />
+      <workItem from="1722691282023" duration="5000" />
+      <workItem from="1722691289773" duration="384000" />
+      <workItem from="1722691677373" duration="24000" />
+      <workItem from="1722691712616" duration="1947000" />
+      <workItem from="1722695628317" duration="25557000" />
     </task>
     <task id="LOCAL-00001" summary="새로만들어봄 되나">
       <option name="closed" value="true" />
@@ -188,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722687155981</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="winTest">
+      <option name="closed" value="true" />
+      <created>1722691441295</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722691441295</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,5 +312,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/my_btester$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1722674632306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/my_btester$charting.coverage" NAME="charting Coverage Results" MODIFIED="1722695714436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/my_btester$koreaStockTest.coverage" NAME="tv-chart-test Coverage Results" MODIFIED="1722743421454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/my_btester$backtrader_multi_thread.coverage" NAME="backtrader-multi-thread Coverage Results" MODIFIED="1722743576683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
