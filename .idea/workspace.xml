@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="898d2cc7-9f64-4dae-80ce-1c34fc92337d" name="Changes" comment="winTest">
-      <change afterPath="$PROJECT_DIR$/.idea/jupyter-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backtrader-multi-thread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/charting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my-btester.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my-btester.iml" afterDir="false" />
+    <list default="true" id="898d2cc7-9f64-4dae-80ce-1c34fc92337d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/chart-strategy/btester_strategies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chart-strategy/download-KRX-data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chart-strategy/download-US-data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chart-strategy/tv-chart-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chart-strategy/yf_data_download.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_03'토'_오후_9_11_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_03____9_11__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backtrader-multiple-stocks.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/backtrader-multiple-stocks.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myBtester/mtBtester-test-pyta.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/myBtester/mtBtester-test-pyta.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myBtester/mtBtester-test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/myBtester/mtBtester-test.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myBtester/myBtester.py" beforeDir="false" afterPath="$PROJECT_DIR$/myBtester/myBtester.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tv-chart-test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +65,12 @@
   "keyToString": {
     "Python.backtrader-multi-thread.executor": "Run",
     "Python.charting.executor": "Run",
+    "Python.download-KRX-data.executor": "Run",
+    "Python.download-US-data.executor": "Run",
     "Python.koreaStockTest.executor": "Run",
     "Python.test4.executor": "Run",
     "Python.tv-chart-test.executor": "Run",
+    "Python.yf_data_download.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ShowUsagesActions.previewPropertyKey": "true",
@@ -91,6 +92,7 @@
       <recent name="C:\Users\pdjpc1\PycharmProjects\my-btester" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chart-strategy" />
       <recent name="C:\Users\pdjpc1\PycharmProjects\my-btester\original-files" />
     </key>
   </component>
@@ -115,23 +117,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="charting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="download-KRX-data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="my-btester" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chart-strategy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/charting.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chart-strategy/download-KRX-data.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="download-US-data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my-btester" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chart-strategy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chart-strategy/download-US-data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -162,29 +181,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="btester-master" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="tv-chart-test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="my-btester" />
       <option name="ENV_FILES" value="" />
@@ -197,7 +193,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tv-chart-test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chart-strategy/tv-chart-test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="yf_data_download" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my-btester" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chart-strategy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chart-strategy/yf_data_download.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,17 +224,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.download-US-data" />
+      <item itemvalue="Python.download-KRX-data" />
+      <item itemvalue="Python.yf_data_download" />
       <item itemvalue="Python.backtrader-multi-thread" />
-      <item itemvalue="Python.charting" />
       <item itemvalue="Python.tv-chart-test" />
-      <item itemvalue="Python.test4" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.tv-chart-test" />
+        <item itemvalue="Python.yf_data_download" />
+        <item itemvalue="Python.download-US-data" />
+        <item itemvalue="Python.download-KRX-data" />
         <item itemvalue="Python.backtrader-multi-thread" />
-        <item itemvalue="Python.charting" />
-        <item itemvalue="Python.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +262,7 @@
       <workItem from="1722691289773" duration="384000" />
       <workItem from="1722691677373" duration="24000" />
       <workItem from="1722691712616" duration="1947000" />
-      <workItem from="1722695628317" duration="25557000" />
+      <workItem from="1722695628317" duration="65275000" />
     </task>
     <task id="LOCAL-00001" summary="새로만들어봄 되나">
       <option name="closed" value="true" />
@@ -286,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722691441295</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="tv차트연동">
+      <option name="closed" value="true" />
+      <created>1722754128779</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722754128780</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,12 +334,16 @@
     <MESSAGE value="이름변경" />
     <MESSAGE value="test1" />
     <MESSAGE value="winTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="winTest" />
+    <MESSAGE value="tv차트연동" />
+    <option name="LAST_COMMIT_MESSAGE" value="tv차트연동" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/my_btester$download_KRX_data.coverage" NAME="download-KRX-data Coverage Results" MODIFIED="1723279539616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chart-strategy" />
     <SUITE FILE_PATH="coverage/my_btester$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1722674632306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/my_btester$yf_data_download.coverage" NAME="yf_data_download Coverage Results" MODIFIED="1722767604165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chart-strategy" />
     <SUITE FILE_PATH="coverage/my_btester$charting.coverage" NAME="charting Coverage Results" MODIFIED="1722695714436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/my_btester$koreaStockTest.coverage" NAME="tv-chart-test Coverage Results" MODIFIED="1722743421454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/my_btester$koreaStockTest.coverage" NAME="tv-chart-test Coverage Results" MODIFIED="1722758007954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/my_btester$download_US_data.coverage" NAME="download-US-data Coverage Results" MODIFIED="1723283951194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chart-strategy" />
     <SUITE FILE_PATH="coverage/my_btester$backtrader_multi_thread.coverage" NAME="backtrader-multi-thread Coverage Results" MODIFIED="1722743576683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
